@@ -11,4 +11,31 @@ function woodNames(){
     }
 }
 
+function yourName(){
+
+    let user_name = prompt("What is your name?");
+        document.write("Hi " + user_name + ", that's a fine name");
+}
+
+function wBench(){
+
+    let bench = prompt ("Do You Like My Workbench?");
+console.log(bench);
+
+if (bench.toLowerCase() == "yes"){
+document.write ("Hey, Thanks!")
+} else {document.write ("oh.")
+}
+
+}
+
+function wantLuck(){
+
+    let luck = window.confirm("press OK for good luck")
+let picurl = "dog.jpg"
+
+if (luck == true){
+    document.write('<img src="dog.jpg" width="500" height="500"')
+}
+}
 
