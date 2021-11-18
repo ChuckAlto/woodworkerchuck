@@ -7,11 +7,12 @@ header, footer {
     text-align: center;
 }
 header li {
-    background-color: rgba(174, 190, 100, 0.425);
+    background-image: url("woodgrain.jpg");
     border: solid black 4px;
     display: inline;
     padding: .5em;
     margin: 10em;
+    color: white;
 }
 
 h1{
@@ -19,17 +20,22 @@ h1{
     border: solid black 3px;
     background-color: rgba(174, 190, 100, 0.425);
 }
+h2{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
 section {
     background-color: rgba(240, 255, 240, 0.397);
     text-align: right;
     color: white;
 }
 #section2 {
-    background-color: rgba(255, 105, 180, 0.397);
+    background-image: url("woodgrain2.jpg");
     text-align: center;
 }
 img {
-    margin: 2px;
+    margin: 10px;
 }
 footer{
     color: white;
