@@ -14,11 +14,15 @@ header li {
     margin: 10em;
     color: white;
 }
+header img {
+    margin: 5px;
+}
 
 h1{
     font-size: 10em;
     border: solid black 3px;
-    background-color: rgba(174, 190, 100, 0.425);
+    background-color: rgba(121, 133, 67, 0.425);
+    margin: 5px;
 }
 h2{
     color: white;
