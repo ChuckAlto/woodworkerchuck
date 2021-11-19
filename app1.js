@@ -53,6 +53,12 @@ function howMany(){
         } while (i < howMuch);
     }
     
-                      
+      // function anotherP(){
+    //      let anotherP = prompt 
+     // for(let 9 = 0; i<anotherp; i++)
+      let variable a equal "welcom john";
+
+    
+   //     }                
                       
                     
