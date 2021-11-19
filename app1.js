@@ -10,7 +10,7 @@ function woodNames(){
     
     let woodtype = prompt("What is your favorite type of wood?");
     console.log(woodtype);
-    while(woodtype !== "walnut" && woodtype !== "pine" && woodtype !== "cherry" && woodtype !== "maple" && woodtype !== "redwood" && woodtype !== "cedar"){
+    while(woodtype.toLowerCase() !== "walnut" && woodtype.toLowerCase() !== "pine" && woodtype.toLowerCase() !== "cherry" && woodtype.toLowerCase() !== "maple" && woodtype.toLowerCase() !== "redwood" && woodtype.toLowerCase() !== "cedar"){
         woodtype = prompt("That is not a good wood, try again");
        console.log(woodtype);    
     }    
