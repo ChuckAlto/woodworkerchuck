@@ -44,15 +44,15 @@ if (luck == true){
 }
 
 function howMany(){
-    let howMuch = prompt("How Much Wood Could A Woodchuck Chuck?");
-    while(howMuch >= 10){
-        howMuch = prompt("That is too much wood, try again")
-    }if (howMuch <1){
-        howMuch = prompt("not nearly enough wood, try again")
-    }else if (howMuch == correctA){
-        document.write("hello world")
-} 
-}
+    let howMuch = prompt('How much wood could a woodchuck chuck?');
+    let url = "woodpile.jpg";
+    let i = 0;
+        do {
+            i += 1;
+            document.write('<img src="' + url + '" width="150" height="150">');
+        } while (i < howMuch);
+    }
+    
                       
                       
                     
