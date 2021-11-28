@@ -1,13 +1,13 @@
 body {
-    background-image: url("woodbackground.jpg");
+    background-image: url("pictures/woodbackground.jpg");
 }
 header, footer {
     color: #501818;
-    background-image: url("woodgrain.jpg");
+    background-image: url("pictures/woodgrain.jpg");
     text-align: center;
 }
 header li {
-    background-image: url("woodgrain.jpg");
+    background-image: url("pictures/woodgrain.jpg");
     border: solid black 4px;
     display: inline;
     padding: .5em;
@@ -35,7 +35,7 @@ section {
     color: white;
 }
 #section2 {
-    background-image: url("woodgrain2.jpg");
+    background-image: url("pictures/woodgrain2.jpg");
     text-align: center;
 }
 img {

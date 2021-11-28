@@ -36,16 +36,16 @@ document.write ("Hey, Thanks!")
 function wantLuck(){
 
     let luck = window.confirm("press OK for dog")
-let picurl = "dog.jpg"
+let picurl = "pictures/dog.jpg"
 
 if (luck == true){
-    document.write('<img src="dog.jpg" width="500" height="500"')
+    document.write('<img src="pictures/dog.jpg" width="500" height="500"')
 }
 }
 
 function howMany(){
     let howMuch = prompt('How much wood could a woodchuck chuck?');
-    let url = "woodpile.jpg";
+    let url = "pictures/woodpile.jpg";
     let i = 0;
         do {
             i += 1;
@@ -56,7 +56,7 @@ function howMany(){
       // function anotherP(){
     //      let anotherP = prompt 
      // for(let 9 = 0; i<anotherp; i++)
-      let variable a equal "welcom john";
+     // let variable a equal "welcom john";
 
     
    //     }                
