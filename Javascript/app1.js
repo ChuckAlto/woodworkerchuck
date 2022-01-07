@@ -28,7 +28,7 @@ console.log(bench);
 
 if (bench.toLowerCase() == "yes"){
 document.write ("Hey, Thanks!")
-} else {document.write ("oh. Sorry it isn't up to your lofty standards.")
+} else {document.write ("oh. Sorry it isn't up to your lofty standards. change")
 }
 
 }
